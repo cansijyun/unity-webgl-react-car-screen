@@ -1,0 +1,38 @@
+.screen-top-status-bar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    .gear-list{
+        display: flex;
+        .gear-item{
+            margin-right: 10px;
+            color: #D0D8DD;
+            &.active-gear{
+                color: #51585C;
+            }
+        }
+    }
+
+    .other-status{
+        display: flex;
+        align-items: center;
+        .user-info{
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+            .user-avatar{
+                --size: 28px;
+                --border-radius: 50%;
+                margin-right: 10px;
+            }
+        }
+        .current-time{
+            margin-right: 10px;
+        }
+        .wifi-icon{
+            margin-right: 10px;
+        }
+    }
+}

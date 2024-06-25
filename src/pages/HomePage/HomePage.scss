@@ -1,0 +1,44 @@
+.vehicle-screen{
+  position: relative;
+  margin-left:100px;
+  margin-top:40px;
+  border: 20px solid #000;
+  border-radius: 10px;
+  width: 1440px;
+  height: 810px;
+  .unity-windows{
+    width: 960px;
+    height: 760px;
+  }
+  .top-status-bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .battery-status{
+    &-bar{
+      position: absolute;
+      bottom: 80px;
+      left: 100px;
+      display: flex;
+      align-items: center;
+      .battery-status-icon{
+        font-size: 40px;
+        margin-right: 20px;
+      }
+      .remaining-capacity{
+        font-size: 20px;
+        margin-right: 6px;
+        &-unit{
+          margin-top:2px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.navigation{
+  position: absolute;
+  top: 50px;
+  right: 0;
+}

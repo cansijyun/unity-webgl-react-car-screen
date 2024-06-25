@@ -1,0 +1,15 @@
+.door-status-card{
+  padding-top: 30px;
+  width: 260px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid #D5D5CC;
+  color:#70706A;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  &.card-active{
+      background-color: #0045C6;
+      color:#fff;
+  }
+}
